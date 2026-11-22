@@ -1,7 +1,6 @@
 export default function RA01Page() {
   return (
     <main className="bg-black text-white min-h-screen">
-
       <div className="max-w-7xl mx-auto px-6 py-32">
 
         <p className="text-red-600 uppercase tracking-[4px] text-sm">
@@ -18,9 +17,14 @@ export default function RA01Page() {
 
         <div className="mt-12">
           <img
-            src="/products/ra01-charging-handle.jpg"
+            src="/products/ra01-charging-handle.png"
             alt="RA-01 Charging Handle"
-            className="rounded-3xl border border-zinc-800 mx-auto"
+            className="
+              w-full
+              rounded-3xl
+              border
+              border-zinc-800
+            "
           />
         </div>
 
@@ -79,7 +83,7 @@ export default function RA01Page() {
                 <span className="text-red-600 font-bold">
                   Origin:
                 </span>{" "}
-                Made in Poland
+                Made In Poland
               </div>
 
             </div>
@@ -88,8 +92,24 @@ export default function RA01Page() {
 
         </div>
 
-      </div>
+        <a
+          href="/"
+          className="
+            inline-block
+            mt-12
+            px-8
+            py-4
+            bg-red-700
+            hover:bg-red-600
+            transition
+            rounded-xl
+            font-semibold
+          "
+        >
+          ← Back to Home
+        </a>
 
+      </div>
     </main>
   );
 }
