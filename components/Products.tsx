@@ -3,26 +3,27 @@ export default function Products() {
     {
       code: "RA-01",
       name: "Charging Handle",
+      link: "/products/ra-01",
     },
     {
       code: "RA-02",
       name: "Competition Trigger",
+      link: "/products/ra-02",
     },
     {
       code: "RA-03",
       name: "Extended Mag Release",
+      link: "/products/ra-03",
     },
     {
       code: "RA-04",
       name: "Competition Safety",
+      link: "/products/ra-04",
     },
     {
       code: "RA-05",
       name: "Picatinny Rail",
-    },
-    {
-      code: "RA-06",
-      name: "Mohac Charging Lever",
+      link: "/products/ra-05",
     },
   ];
 
@@ -63,9 +64,24 @@ export default function Products() {
                 {product.name}
               </h3>
 
-              <button className="mt-8 border border-zinc-700 px-6 py-3 rounded-lg hover:border-red-700 transition">
+              <a
+                href={product.link}
+                className="
+                  inline-block
+                  mt-8
+                  border
+                  border-zinc-700
+                  px-6
+                  py-3
+                  rounded-lg
+                  hover:border-red-700
+                  hover:text-red-500
+                  transition
+                "
+              >
                 View Product
-              </button>
+              </a>
+
             </div>
           ))}
 
