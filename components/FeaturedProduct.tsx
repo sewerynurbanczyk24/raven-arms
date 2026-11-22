@@ -15,7 +15,7 @@ export default function FeaturedProduct() {
           </h2>
 
           <p className="mt-4 text-zinc-500 uppercase tracking-[3px]">
-            Control. Reliability. Superiority.
+            Control. Reliability. Performance.
           </p>
 
         </div>
@@ -29,14 +29,13 @@ export default function FeaturedProduct() {
             <p className="text-zinc-400 text-lg leading-relaxed">
               Zaprojektowana z myślą o maksymalnej ergonomii,
               szybkości obsługi oraz bezkompromisowej jakości.
-              RA-01 to frezowana CNC dźwignia przeładowania
-              wykonana z aluminium lotniczego 7075-T6.
+              RA-01 to koncepcyjna dźwignia przeładowania wykonana
+              z aluminium lotniczego 7075-T6.
             </p>
 
-            <div className="grid grid-cols-2 gap-8 mt-12">
+            <div className="grid grid-cols-2 gap-6 mt-12">
 
               <div className="border border-zinc-800 rounded-xl p-6">
-
                 <div className="text-red-600 font-bold text-xl">
                   7075-T6
                 </div>
@@ -44,11 +43,9 @@ export default function FeaturedProduct() {
                 <div className="text-zinc-500 text-sm mt-2">
                   Aluminium
                 </div>
-
               </div>
 
               <div className="border border-zinc-800 rounded-xl p-6">
-
                 <div className="text-red-600 font-bold text-xl">
                   CNC
                 </div>
@@ -56,11 +53,9 @@ export default function FeaturedProduct() {
                 <div className="text-zinc-500 text-sm mt-2">
                   Machined
                 </div>
-
               </div>
 
               <div className="border border-zinc-800 rounded-xl p-6">
-
                 <div className="text-red-600 font-bold text-xl">
                   HARD
                 </div>
@@ -68,11 +63,9 @@ export default function FeaturedProduct() {
                 <div className="text-zinc-500 text-sm mt-2">
                   Anodized
                 </div>
-
               </div>
 
               <div className="border border-zinc-800 rounded-xl p-6">
-
                 <div className="text-red-600 font-bold text-xl">
                   PL
                 </div>
@@ -80,14 +73,26 @@ export default function FeaturedProduct() {
                 <div className="text-zinc-500 text-sm mt-2">
                   Made In Poland
                 </div>
-
               </div>
 
             </div>
 
-            <button className="mt-12 bg-red-700 hover:bg-red-600 transition px-8 py-4 rounded-xl font-semibold">
-              Dowiedz się więcej
-            </button>
+            <a
+              href="/products/ra-01"
+              className="
+                inline-block
+                mt-12
+                bg-red-700
+                hover:bg-red-600
+                transition
+                px-8
+                py-4
+                rounded-xl
+                font-semibold
+              "
+            >
+              View Product
+            </a>
 
           </div>
 
@@ -95,11 +100,23 @@ export default function FeaturedProduct() {
 
           <div>
 
-            <img
-              src="/products/ra01-charging-handle.png"
-              alt="RA-01 Charging Handle"
-              className="rounded-3xl border border-zinc-800 shadow-2xl"
-            />
+            <a href="/products/ra-01">
+
+              <img
+                src="/products/ra01-charging-handle.png"
+                alt="RA-01 Charging Handle"
+                className="
+                  rounded-3xl
+                  border
+                  border-zinc-800
+                  shadow-2xl
+                  hover:scale-[1.02]
+                  transition
+                  duration-300
+                "
+              />
+
+            </a>
 
           </div>
 
