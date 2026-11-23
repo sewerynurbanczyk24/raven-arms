@@ -7,12 +7,12 @@ export default function Platforms() {
     },
     {
       title: "PCC",
-      subtitle: "Components",
+      subtitle: "Competition Components",
       image: "/platforms/pcc.jpg",
     },
     {
       title: "PISTOLS",
-      subtitle: "Upgrades",
+      subtitle: "Performance Upgrades",
       image: "/platforms/pistol.jpg",
     },
     {
@@ -23,21 +23,21 @@ export default function Platforms() {
   ];
 
   return (
-    <section className="border-t border-zinc-900">
-
-      <div className="grid md:grid-cols-4">
-
+    <section className="border-t border-zinc-900 bg-black">
+      <div className="grid lg:grid-cols-4">
         {items.map((item) => (
           <div
             key={item.title}
             className="
               relative
-              h-72
+              h-[320px]
               overflow-hidden
               group
+              cursor-pointer
               border-r
               border-zinc-900
-              cursor-pointer
+              border-b
+              border-zinc-900
             "
           >
             <img
@@ -49,31 +49,78 @@ export default function Platforms() {
                 w-full
                 h-full
                 object-cover
-                opacity-40
-                group-hover:opacity-60
-                transition
+                scale-100
+                group-hover:scale-105
+                transition-all
+                duration-700
               "
             />
 
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black/55" />
 
-            <div className="absolute bottom-8 left-8">
+            <div
+              className="
+                absolute
+                inset-0
+                bg-gradient-to-t
+                from-black
+                via-black/20
+                to-transparent
+              "
+            />
 
-              <h3 className="text-4xl font-black">
-                {item.title}
-              </h3>
+            <div
+              className="
+                absolute
+                bottom-8
+                left-8
+                right-8
+                flex
+                justify-between
+                items-end
+              "
+            >
+              <div>
+                <h3
+                  className="
+                    text-4xl
+                    xl:text-5xl
+                    font-black
+                    tracking-tight
+                  "
+                >
+                  {item.title}
+                </h3>
 
-              <p className="text-zinc-400 uppercase tracking-[2px] text-sm">
-                {item.subtitle}
-              </p>
+                <p
+                  className="
+                    mt-2
+                    text-zinc-400
+                    uppercase
+                    tracking-[3px]
+                    text-xs
+                  "
+                >
+                  {item.subtitle}
+                </p>
+              </div>
 
+              <span
+                className="
+                  text-red-600
+                  text-3xl
+                  font-light
+                  translate-x-0
+                  group-hover:translate-x-2
+                  transition
+                "
+              >
+                →
+              </span>
             </div>
-
           </div>
         ))}
-
       </div>
-
     </section>
   );
 }
