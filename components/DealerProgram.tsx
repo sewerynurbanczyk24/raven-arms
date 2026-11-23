@@ -131,7 +131,7 @@ export default function DealerProgram() {
 
                 <div>
                   <div className="text-red-600 text-4xl font-black">
-                    GLOBAL
+                    Rynki Międzynarodowe
                   </div>
 
                   <div className="text-zinc-500 uppercase text-sm mt-2">
