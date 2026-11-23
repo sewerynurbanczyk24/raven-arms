@@ -1,71 +1,159 @@
 export default function WhyRaven() {
   const features = [
     {
-      title: "7075-T6",
-      subtitle: "Aircraft Grade Aluminium",
+      title: "CNC MACHINED",
+      description:
+        "Precyzja w każdym detalu. Powtarzalna jakość dzięki nowoczesnej obróbce CNC.",
+      icon: "⚙",
     },
     {
-      title: "CNC",
-      subtitle: "Precision Machined",
+      title: "HARD ANODIZED",
+      description:
+        "Wytrzymała powierzchnia odporna na intensywne użytkowanie.",
+      icon: "🛡",
     },
     {
-      title: "ANODIZED",
-      subtitle: "Durable Finish",
+      title: "COMPETITION TESTED",
+      description:
+        "Sprawdzone przez strzelców sportowych i wymagających użytkowników.",
+      icon: "◎",
     },
     {
-      title: "POLAND",
-      subtitle: "Designed & Manufactured",
+      title: "MADE IN POLAND",
+      description:
+        "Projektowane i produkowane w Polsce według najwyższych standardów.",
+      icon: "🇵🇱",
     },
   ];
 
   return (
-    <section className="border-t border-zinc-900 bg-zinc-950">
-
+    <section className="border-t border-zinc-900 bg-black">
       <div className="max-w-7xl mx-auto px-6 py-24">
 
-        <div className="mb-16">
+        <p className="uppercase tracking-[4px] text-red-600 text-sm">
+          Why Raven Arms
+        </p>
 
-          <p className="uppercase tracking-[4px] text-red-600 text-sm">
-            Why Raven Arms
-          </p>
+        <h2 className="mt-4 text-5xl lg:text-7xl font-black uppercase">
+          ENGINEERED FOR
+          <br />
+          WHAT MATTERS
+        </h2>
 
-          <h2 className="mt-4 text-5xl md:text-6xl font-black">
-            ENGINEERED FOR
-            <br />
-            WHAT MATTERS
-          </h2>
+        <div className="grid lg:grid-cols-[60%_40%] gap-12 mt-20">
 
-        </div>
+          {/* LEWA STRONA */}
+          <div className="grid md:grid-cols-2">
 
-        <div className="grid md:grid-cols-4 gap-8">
+            {features.map((item) => (
+              <div
+                key={item.title}
+                className="
+                  p-8
+                  border
+                  border-zinc-900
+                  hover:border-red-700
+                  transition
+                "
+              >
+                <div className="text-4xl text-red-600">
+                  {item.icon}
+                </div>
 
-          {features.map((item) => (
-            <div
-              key={item.title}
+                <h3
+                  className="
+                    mt-6
+                    text-xl
+                    font-black
+                    uppercase
+                  "
+                >
+                  {item.title}
+                </h3>
+
+                <p className="mt-4 text-zinc-500 leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+
+          </div>
+
+          {/* PRAWA STRONA */}
+
+          <div className="relative overflow-hidden border border-zinc-900">
+
+            <img
+              src="/gallery/ar15.jpg"
+              alt="Raven Arms"
               className="
-                border
-                border-zinc-800
-                rounded-2xl
-                p-8
-                hover:border-red-700
-                transition
+                w-full
+                h-full
+                object-cover
+                opacity-70
+              "
+            />
+
+            <div className="absolute inset-0 bg-black/35" />
+
+            <div
+              className="
+                absolute
+                bottom-8
+                right-8
+                text-right
               "
             >
-              <h3 className="text-2xl font-black text-red-600">
-                {item.title}
-              </h3>
-
-              <p className="text-zinc-500 mt-3">
-                {item.subtitle}
+              <p
+                className="
+                  text-white
+                  uppercase
+                  tracking-[4px]
+                  text-lg
+                "
+              >
+                SHOOT
               </p>
 
+              <p
+                className="
+                  text-white
+                  uppercase
+                  tracking-[4px]
+                  text-lg
+                "
+              >
+                TUNE
+              </p>
+
+              <p
+                className="
+                  text-white
+                  uppercase
+                  tracking-[4px]
+                  text-lg
+                "
+              >
+                IMPROVE
+              </p>
+
+              <p
+                className="
+                  text-red-600
+                  uppercase
+                  tracking-[4px]
+                  text-lg
+                "
+              >
+                REPEAT
+              </p>
             </div>
-          ))}
+
+          </div>
 
         </div>
 
       </div>
-
     </section>
   );
 }
