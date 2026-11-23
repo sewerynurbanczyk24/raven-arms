@@ -1,82 +1,98 @@
 export default function DealerProgram() {
   return (
-    <section className="border-t border-zinc-900 bg-black">
+    <section className="border-t border-zinc-900 bg-zinc-950 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 py-32">
 
-      <div className="max-w-7xl mx-auto px-6 py-24">
+        <div className="grid lg:grid-cols-[60%_40%] gap-20 items-center">
 
-        <div className="text-center">
+          {/* LEWA STRONA */}
 
-          <p className="uppercase tracking-[4px] text-red-600 text-sm">
-            Dealer Program
-          </p>
+          <div>
 
-          <h2 className="mt-4 text-5xl md:text-6xl font-black">
-            BECOME A
-            <br />
-            RAVEN ARMS DEALER
-          </h2>
-
-          <p className="mt-8 text-zinc-400 max-w-3xl mx-auto text-lg">
-            Join the Raven Arms dealer network and offer premium CNC
-            performance components for AR15, PCC, pistols and shotguns.
-          </p>
-
-        </div>
-
-        <div className="grid md:grid-cols-4 gap-8 mt-16">
-
-          <div className="border border-zinc-800 rounded-2xl p-8">
-            <h3 className="text-red-600 font-black text-xl">
-              WHOLESALE
-            </h3>
-
-            <p className="text-zinc-500 mt-4">
-              Competitive pricing for dealers and distributors.
+            <p className="uppercase tracking-[4px] text-red-600 text-sm">
+              Global Distribution
             </p>
-          </div>
 
-          <div className="border border-zinc-800 rounded-2xl p-8">
-            <h3 className="text-red-600 font-black text-xl">
-              OEM
-            </h3>
+            <h2 className="mt-4 text-5xl lg:text-7xl font-black uppercase">
+              BECOME A
+              <br />
+              RAVEN ARMS
+              <br />
+              DEALER
+            </h2>
 
-            <p className="text-zinc-500 mt-4">
-              CNC manufacturing for custom branded components.
+            <p className="mt-10 text-xl text-zinc-300 leading-relaxed">
+              Join a growing network of dealers offering premium
+              CNC components for AR15 platforms, PCCs, pistols
+              and shotguns.
             </p>
-          </div>
 
-          <div className="border border-zinc-800 rounded-2xl p-8">
-            <h3 className="text-red-600 font-black text-xl">
-              EXPORT
-            </h3>
-
-            <p className="text-zinc-500 mt-4">
-              International cooperation and distribution network.
+            <p className="mt-6 text-zinc-500 leading-relaxed">
+              We are looking for distribution partners,
+              specialized firearm retailers and international
+              wholesalers ready to introduce Raven Arms products
+              to demanding shooters worldwide.
             </p>
-          </div>
 
-          <div className="border border-zinc-800 rounded-2xl p-8">
-            <h3 className="text-red-600 font-black text-xl">
-              CUSTOM
-            </h3>
+            <div className="grid md:grid-cols-2 gap-6 mt-12">
 
-            <p className="text-zinc-500 mt-4">
-              Dedicated projects and limited product series.
-            </p>
-          </div>
+              <div className="border border-zinc-800 p-6">
+                <h3 className="font-black text-red-600 uppercase">
+                  Wholesale
+                </h3>
 
-        </div>
+                <p className="mt-3 text-zinc-500">
+                  Competitive dealer pricing and long-term partnership.
+                </p>
+              </div>
 
-        <div className="text-center mt-16">
+              <div className="border border-zinc-800 p-6">
+                <h3 className="font-black text-red-600 uppercase">
+                  Export
+                </h3>
 
-          <button className="bg-red-700 hover:bg-red-600 transition px-10 py-4 rounded-xl font-semibold">
-            Become a Dealer
-          </button>
+                <p className="mt-3 text-zinc-500">
+                  International distribution and regional cooperation.
+                </p>
+              </div>
 
-        </div>
+              <div className="border border-zinc-800 p-6">
+                <h3 className="font-black text-red-600 uppercase">
+                  OEM
+                </h3>
 
-      </div>
+                <p className="mt-3 text-zinc-500">
+                  Custom CNC production for external brands.
+                </p>
+              </div>
 
-    </section>
-  );
-}
+              <div className="border border-zinc-800 p-6">
+                <h3 className="font-black text-red-600 uppercase">
+                  Custom Projects
+                </h3>
+
+                <p className="mt-3 text-zinc-500">
+                  Dedicated product development and limited series.
+                </p>
+              </div>
+
+            </div>
+
+            <a
+              href="#contact"
+              className="
+                inline-flex
+                items-center
+                gap-3
+                mt-12
+                bg-red-700
+                hover:bg-red-600
+                px-10
+                py-5
+                uppercase
+                tracking-wider
+                font-black
+                transition
+              "
+            >
+              
