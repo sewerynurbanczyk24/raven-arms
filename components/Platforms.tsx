@@ -23,7 +23,10 @@ export default function Platforms() {
   ];
 
   return (
-    <section className="border-t border-zinc-900 bg-black">
+    <section
+  id="platforms"
+  className="border-t border-zinc-900 bg-black"
+>
       <div className="grid lg:grid-cols-4">
         {items.map((item) => (
           <div

@@ -27,7 +27,10 @@ export default function ProductsGallery() {
   ];
 
   return (
-    <section className="border-t border-zinc-900 bg-black">
+    <section
+  id="gallery"
+  className="border-t border-zinc-900 bg-black"
+>
       <div className="max-w-7xl mx-auto px-6 py-24">
 
         <p className="uppercase tracking-[4px] text-red-600 text-sm">

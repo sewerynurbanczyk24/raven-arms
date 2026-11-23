@@ -1,6 +1,9 @@
 export default function DealerProgram() {
   return (
-    <section className="border-t border-zinc-900 bg-zinc-950 overflow-hidden">
+    <section
+  id="dealers"
+  className="border-t border-zinc-900 bg-zinc-950 overflow-hidden"
+>
       <div className="max-w-7xl mx-auto px-6 py-32">
 
         <div className="grid lg:grid-cols-[60%_40%] gap-20 items-center">

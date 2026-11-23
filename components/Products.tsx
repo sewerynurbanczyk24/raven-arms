@@ -28,7 +28,10 @@ export default function Products() {
   ];
 
   return (
-    <section className="border-t border-zinc-900 bg-black">
+    <section
+  id="products"
+  className="border-t border-zinc-900 bg-black"
+>
 
       <div className="max-w-7xl mx-auto px-6 py-24">
 

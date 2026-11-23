@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <section className="border-t border-zinc-900 bg-zinc-950">
+    <section
+  id="contact"
+  className="border-t border-zinc-900 bg-zinc-950"
+>
 
       <div className="max-w-7xl mx-auto px-6 py-24">
 

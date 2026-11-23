@@ -1,70 +1,111 @@
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur border-b border-zinc-900">
+    <header
+      className="
+        fixed
+        top-0
+        left-0
+        w-full
+        z-50
+        bg-black/80
+        backdrop-blur-md
+        border-b
+        border-zinc-900
+      "
+    >
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
 
         {/* LOGO */}
 
-        <div className="flex items-center gap-4">
-
+        <a
+          href="#home"
+          className="flex items-center gap-4"
+        >
           <img
             src="/branding/raven-logo.png"
             alt="Raven Arms Logo"
-            className="w-14 h-14 object-contain"
+            className="w-16 h-16 object-contain"
           />
 
           <img
             src="/branding/raven-wordmark.png"
             alt="Raven Arms"
-            className="h-10 w-auto"
+            className="h-12 w-auto"
           />
-
-        </div>
+        </a>
 
         {/* MENU */}
 
         <nav className="hidden lg:flex items-center gap-10">
 
           <a
-            href="#"
-            className="text-sm uppercase tracking-[2px] text-white hover:text-red-600 transition"
+            href="#products"
+            className="
+              text-sm
+              uppercase
+              tracking-[2px]
+              text-white
+              hover:text-red-600
+              transition
+            "
           >
-            Home
+            Produkty
           </a>
 
           <a
-            href="#"
-            className="text-sm uppercase tracking-[2px] text-white hover:text-red-600 transition"
+            href="#platforms"
+            className="
+              text-sm
+              uppercase
+              tracking-[2px]
+              text-white
+              hover:text-red-600
+              transition
+            "
           >
-            Products
+            Platformy
           </a>
 
           <a
-            href="#"
-            className="text-sm uppercase tracking-[2px] text-white hover:text-red-600 transition"
+            href="#gallery"
+            className="
+              text-sm
+              uppercase
+              tracking-[2px]
+              text-white
+              hover:text-red-600
+              transition
+            "
           >
-            Platforms
+            Galeria
           </a>
 
           <a
-            href="#"
-            className="text-sm uppercase tracking-[2px] text-white hover:text-red-600 transition"
+            href="#dealers"
+            className="
+              text-sm
+              uppercase
+              tracking-[2px]
+              text-white
+              hover:text-red-600
+              transition
+            "
           >
-            Gallery
+            Partnerzy
           </a>
 
           <a
-            href="#"
-            className="text-sm uppercase tracking-[2px] text-white hover:text-red-600 transition"
+            href="#contact"
+            className="
+              text-sm
+              uppercase
+              tracking-[2px]
+              text-white
+              hover:text-red-600
+              transition
+            "
           >
-            Dealers
-          </a>
-
-          <a
-            href="#"
-            className="text-sm uppercase tracking-[2px] text-white hover:text-red-600 transition"
-          >
-            Contact
+            Kontakt
           </a>
 
         </nav>
@@ -73,11 +114,9 @@ export default function Navbar() {
 
         <div className="hidden lg:flex items-center gap-5">
 
-          <button className="text-zinc-500 hover:text-white transition text-lg">
-            🔍
-          </button>
+          <div className="border-l border-zinc-800 h-6" />
 
-          <div className="border-l border-zinc-800 h-6"></div>
+          {/* JĘZYKI */}
 
           <div className="flex items-center gap-2">
 
@@ -118,6 +157,26 @@ export default function Navbar() {
             </button>
 
           </div>
+
+          {/* CTA */}
+
+          <a
+            href="#contact"
+            className="
+              ml-3
+              bg-red-700
+              hover:bg-red-600
+              transition
+              px-5
+              py-3
+              uppercase
+              tracking-wider
+              text-xs
+              font-black
+            "
+          >
+            Kontakt
+          </a>
 
         </div>
 
