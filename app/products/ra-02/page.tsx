@@ -58,15 +58,28 @@ export default function RA02Page() {
                   border-2
                   border-white
                 "
+                title="Czarny"
               />
 
-              <div className="w-10 h-10 rounded-full bg-red-700" />
+              <div
+                className="w-10 h-10 rounded-full bg-red-700"
+                title="Czerwony"
+              />
 
-              <div className="w-10 h-10 rounded-full bg-blue-600" />
+              <div
+                className="w-10 h-10 rounded-full bg-blue-600"
+                title="Niebieski"
+              />
 
-              <div className="w-10 h-10 rounded-full bg-green-600" />
+              <div
+                className="w-10 h-10 rounded-full bg-green-600"
+                title="Zielony"
+              />
 
-              <div className="w-10 h-10 rounded-full bg-yellow-500" />
+              <div
+                className="w-10 h-10 rounded-full bg-yellow-500"
+                title="Złoty"
+              />
 
             </div>
 
@@ -106,13 +119,92 @@ export default function RA02Page() {
               </p>
 
               <p className="mt-8 text-zinc-500 leading-relaxed">
-                Konstrukcja wykorzystuje precyzyjną obróbkę CNC
-                oraz wysokiej jakości materiały zapewniające
-                płynne działanie podczas treningów i zawodów.
-                To rozwiązanie stworzone dla użytkowników
-                wymagających najwyższej jakości wykonania.
+                Konstrukcja wykorzystuje precyzyjną obróbkę CNC,
+                wysokiej jakości materiały oraz rozwiązania
+                zwiększające komfort użytkowania podczas treningów
+                i zawodów.
               </p>
 
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* PLATFORMY */}
+
+      <section className="border-b border-zinc-900">
+
+        <div className="max-w-7xl mx-auto px-6 py-24">
+
+          <p className="uppercase tracking-[4px] text-red-600 text-sm">
+            Platformy Raven Arms
+          </p>
+
+          <h2 className="mt-4 text-5xl font-black uppercase">
+            Tworzone dla najpopularniejszych platform
+          </h2>
+
+          <p className="mt-6 text-zinc-500 max-w-3xl leading-relaxed">
+            Komponenty Raven Arms projektowane są z myślą o
+            najpopularniejszych platformach wykorzystywanych
+            w strzelectwie sportowym, dynamicznym oraz rekreacyjnym.
+            Naszym celem jest dostarczanie rozwiązań zwiększających
+            kontrolę, ergonomię i osiągi niezależnie od wybranej platformy.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                Beretta 92X
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Pistolety sportowe
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                CZ Shadow 2
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                IPSC & Dynamic Shooting
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                Walther PDP
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Performance Pistols
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                Huglu Mohac
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Sport & Tactical Shotguns
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                FB GROT
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Modern Rifle Platform
+              </p>
             </div>
 
           </div>
