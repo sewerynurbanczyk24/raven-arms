@@ -19,17 +19,17 @@ export default function RA04Page() {
           </h1>
 
           <h2 className="mt-4 text-3xl lg:text-4xl text-zinc-300 uppercase">
-            Competition Safety
+            Extended Magazine Release
           </h2>
 
           <p className="mt-8 text-zinc-500 uppercase tracking-[4px]">
-            Faster. Safer. Smarter.
+            Faster. Easier. Better.
           </p>
 
           <div className="mt-16">
             <img
-              src="/products/ra04-safety.png"
-              alt="RA-04 Competition Safety"
+              src="/products/ra04-mag-release.png"
+              alt="RA-04 Extended Magazine Release"
               className="
                 w-full
                 max-w-5xl
@@ -84,11 +84,11 @@ export default function RA04Page() {
             <div>
 
               <p className="uppercase tracking-[4px] text-red-600 text-sm">
-                Pewna obsługa
+                Zaprojektowany dla szybkości
               </p>
 
               <h2 className="mt-4 text-5xl font-black uppercase">
-                Kontrola pod pełnym nadzorem
+                Błyskawiczna wymiana magazynka
               </h2>
 
             </div>
@@ -96,17 +96,17 @@ export default function RA04Page() {
             <div>
 
               <p className="text-zinc-400 leading-relaxed text-lg">
-                RA‑04 Competition Safety został opracowany
-                dla użytkowników oczekujących szybkiej,
-                intuicyjnej oraz pewnej obsługi broni
-                podczas treningów i zawodów.
+                RA‑04 Extended Magazine Release został opracowany
+                z myślą o użytkownikach oczekujących szybkiej i
+                intuicyjnej obsługi magazynka podczas treningów,
+                zawodów oraz codziennego użytkowania.
               </p>
 
               <p className="mt-8 text-zinc-500 leading-relaxed">
-                Powiększone powierzchnie manipulacyjne
-                poprawiają ergonomię oraz umożliwiają
-                szybszą i bardziej kontrolowaną obsługę
-                platform sportowych.
+                Powiększona powierzchnia przycisku poprawia ergonomię
+                pracy, skraca czas wymiany magazynka i pozwala
+                zachować pełną kontrolę nad platformą podczas
+                dynamicznego strzelania.
               </p>
 
             </div>
@@ -132,31 +132,56 @@ export default function RA04Page() {
           </h2>
 
           <p className="mt-6 text-zinc-500 max-w-3xl leading-relaxed">
-            Komponenty Raven Arms projektowane są dla
-            najpopularniejszych platform wykorzystywanych
+            Komponenty Raven Arms projektowane są z myślą o
+            najpopularniejszych platformach wykorzystywanych
             w strzelectwie sportowym, dynamicznym oraz rekreacyjnym.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
 
             <div className="border border-zinc-800 p-8 text-center">
-              <h3 className="font-black text-xl">Beretta 92X</h3>
+              <h3 className="font-black text-xl">
+                Beretta 92X
+              </h3>
+              <p className="mt-3 text-zinc-500 text-sm">
+                Pistolety sportowe
+              </p>
             </div>
 
             <div className="border border-zinc-800 p-8 text-center">
-              <h3 className="font-black text-xl">CZ Shadow 2</h3>
+              <h3 className="font-black text-xl">
+                CZ Shadow 2
+              </h3>
+              <p className="mt-3 text-zinc-500 text-sm">
+                IPSC & Dynamic Shooting
+              </p>
             </div>
 
             <div className="border border-zinc-800 p-8 text-center">
-              <h3 className="font-black text-xl">Walther PDP</h3>
+              <h3 className="font-black text-xl">
+                Walther PDP
+              </h3>
+              <p className="mt-3 text-zinc-500 text-sm">
+                Performance Pistols
+              </p>
             </div>
 
             <div className="border border-zinc-800 p-8 text-center">
-              <h3 className="font-black text-xl">Huglu Mohac</h3>
+              <h3 className="font-black text-xl">
+                Huglu Mohac
+              </h3>
+              <p className="mt-3 text-zinc-500 text-sm">
+                Sport & Tactical Shotguns
+              </p>
             </div>
 
             <div className="border border-zinc-800 p-8 text-center">
-              <h3 className="font-black text-xl">FB GROT</h3>
+              <h3 className="font-black text-xl">
+                FB GROT
+              </h3>
+              <p className="mt-3 text-zinc-500 text-sm">
+                Modern Rifle Platform
+              </p>
             </div>
 
           </div>
@@ -174,16 +199,23 @@ export default function RA04Page() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
             <div className="border border-zinc-800 p-8">
+
               <div className="text-red-600 text-3xl font-black">
-                CONTROL
+                FAST
               </div>
 
               <div className="mt-3 text-zinc-300 font-semibold">
-                Lepsza ergonomia
+                Szybsza wymiana magazynka
               </div>
+
+              <div className="mt-4 text-zinc-500 text-sm">
+                Lepsza ergonomia podczas dynamicznego strzelania.
+              </div>
+
             </div>
 
             <div className="border border-zinc-800 p-8">
+
               <div className="text-red-600 text-3xl font-black">
                 CNC
               </div>
@@ -191,9 +223,15 @@ export default function RA04Page() {
               <div className="mt-3 text-zinc-300 font-semibold">
                 Precision Machined
               </div>
+
+              <div className="mt-4 text-zinc-500 text-sm">
+                Dokładna obróbka każdego detalu.
+              </div>
+
             </div>
 
             <div className="border border-zinc-800 p-8">
+
               <div className="text-red-600 text-3xl font-black">
                 SPORT
               </div>
@@ -201,9 +239,15 @@ export default function RA04Page() {
               <div className="mt-3 text-zinc-300 font-semibold">
                 Competition Ready
               </div>
+
+              <div className="mt-4 text-zinc-500 text-sm">
+                Opracowany dla strzelectwa sportowego.
+              </div>
+
             </div>
 
             <div className="border border-zinc-800 p-8">
+
               <div className="text-red-600 text-3xl font-black">
                 PL
               </div>
@@ -211,6 +255,11 @@ export default function RA04Page() {
               <div className="mt-3 text-zinc-300 font-semibold">
                 Made In Poland
               </div>
+
+              <div className="mt-4 text-zinc-500 text-sm">
+                Projektowane i produkowane w Polsce.
+              </div>
+
             </div>
 
           </div>
