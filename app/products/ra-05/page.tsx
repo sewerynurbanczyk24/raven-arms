@@ -1,91 +1,269 @@
 export default function RA05Page() {
   return (
     <main className="bg-black text-white min-h-screen">
-      <div className="max-w-7xl mx-auto px-6 py-32">
 
-        <p className="text-red-600 uppercase tracking-[4px] text-sm">
-          Raven Arms Product Series
-        </p>
+      {/* HERO */}
 
-        <h1 className="mt-4 text-6xl font-black">
-          RA-05
-        </h1>
+      <section className="relative border-b border-zinc-900 overflow-hidden">
 
-        <h2 className="text-3xl text-zinc-400 mt-4">
-          Picatinny Rail
-        </h2>
+        <div className="absolute inset-0 bg-red-700/10 blur-[150px]" />
 
-        <div className="mt-12">
-          <img
-            src="/products/ra05-picatinny-rail.png"
-            alt="RA-05 Picatinny Rail"
-            className="
-              w-full
-              rounded-3xl
-              border
-              border-zinc-800
-            "
-          />
-        </div>
+        <div className="max-w-7xl mx-auto px-6 py-24 relative z-10">
 
-        <div className="mt-16 grid md:grid-cols-2 gap-10">
+          <p className="text-red-600 uppercase tracking-[4px] text-sm">
+            Raven Arms Product Series
+          </p>
 
-          <div>
+          <h1 className="mt-6 text-6xl lg:text-8xl font-black uppercase">
+            RA-05
+          </h1>
 
-            <h3 className="text-2xl font-bold mb-6">
-              Product Description
-            </h3>
+          <h2 className="mt-4 text-3xl lg:text-4xl text-zinc-300 uppercase">
+            RIS 22 mm Rail
+          </h2>
 
-            <p className="text-zinc-400 leading-relaxed">
-              RA-05 Picatinny Rail została zaprojektowana dla
-              użytkowników wymagających lekkiego, sztywnego oraz
-              wytrzymałego systemu montażowego dla akcesoriów
-              taktycznych i sportowych.
+          <p className="mt-8 text-zinc-500 uppercase tracking-[4px]">
+            Mount. Adapt. Perform.
+          </p>
+
+          <div className="mt-16">
+            <img
+              src="/products/ra05-ris-rail.png"
+              alt="RA-05 RIS Rail"
+              className="
+                w-full
+                max-w-5xl
+                mx-auto
+                drop-shadow-[0_0_60px_rgba(220,38,38,0.35)]
+              "
+            />
+          </div>
+
+          {/* KOLORY */}
+
+          <div className="mt-16 text-center">
+
+            <p className="uppercase tracking-[3px] text-sm text-zinc-500 mb-6">
+              Dostępne warianty kolorystyczne
             </p>
 
-            <p className="text-zinc-400 leading-relaxed mt-6">
-              Precyzyjne wykonanie CNC gwarantuje idealne spasowanie,
-              wysoką sztywność konstrukcji oraz pełną kompatybilność
-              z popularnymi akcesoriami montowanymi w standardzie
-              Picatinny.
-            </p>
+            <div className="flex justify-center gap-5">
+
+              <div
+                className="
+                  w-10
+                  h-10
+                  rounded-full
+                  bg-black
+                  border-2
+                  border-white
+                "
+              />
+
+              <div className="w-10 h-10 rounded-full bg-red-700" />
+              <div className="w-10 h-10 rounded-full bg-blue-600" />
+              <div className="w-10 h-10 rounded-full bg-green-600" />
+              <div className="w-10 h-10 rounded-full bg-yellow-500" />
+
+            </div>
 
           </div>
 
-          <div>
+        </div>
 
-            <h3 className="text-2xl font-bold mb-6">
-              Specifications
-            </h3>
+      </section>
 
-            <div className="space-y-4 text-zinc-400">
+      {/* OPIS */}
 
-              <div>
-                <span className="text-red-600 font-bold">
-                  Material:
-                </span>{" "}
-                7075-T6 Aluminium
+      <section className="border-b border-zinc-900">
+
+        <div className="max-w-7xl mx-auto px-6 py-24">
+
+          <div className="grid lg:grid-cols-2 gap-16">
+
+            <div>
+
+              <p className="uppercase tracking-[4px] text-red-600 text-sm">
+                Gotowa na akcesoria
+              </p>
+
+              <h2 className="mt-4 text-5xl font-black uppercase">
+                Maksymalna modularność
+              </h2>
+
+            </div>
+
+            <div>
+
+              <p className="text-zinc-400 leading-relaxed text-lg">
+                RA‑05 RIS Rail została zaprojektowana dla
+                użytkowników oczekujących możliwości rozbudowy
+                platform sportowych, karabinków oraz systemów
+                wykorzystywanych podczas strzelectwa dynamicznego.
+              </p>
+
+              <p className="mt-8 text-zinc-500 leading-relaxed">
+                Standard RIS / Picatinny 22 mm umożliwia montaż
+                szerokiej gamy akcesoriów, takich jak kolimatory,
+                optyka, latarki, wskaźniki laserowe oraz inne
+                elementy wyposażenia.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* PLATFORMY */}
+
+      <section className="border-b border-zinc-900">
+
+        <div className="max-w-7xl mx-auto px-6 py-24">
+
+          <p className="uppercase tracking-[4px] text-red-600 text-sm">
+            Platformy Raven Arms
+          </p>
+
+          <h2 className="mt-4 text-5xl font-black uppercase">
+            Tworzone dla najpopularniejszych platform
+          </h2>
+
+          <p className="mt-6 text-zinc-500 max-w-3xl leading-relaxed">
+            Komponenty Raven Arms rozwijane są z myślą o
+            nowoczesnych platformach wykorzystywanych w
+            sporcie strzeleckim, rekreacji oraz zastosowaniach
+            profesjonalnych.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                Beretta 92X
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Pistolety sportowe
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                CZ Shadow 2
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                IPSC & Dynamic Shooting
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                Walther PDP
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Performance Pistols
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                Huglu Mohac
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Sport & Tactical Shotguns
+              </p>
+            </div>
+
+            <div className="border border-zinc-800 p-8 text-center">
+              <h3 className="font-black text-xl">
+                FB GROT
+              </h3>
+
+              <p className="mt-3 text-zinc-500 text-sm">
+                Modern Rifle Platform
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* CECHY */}
+
+      <section className="border-b border-zinc-900">
+
+        <div className="max-w-7xl mx-auto px-6 py-24">
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div className="border border-zinc-800 p-8">
+
+              <div className="text-red-600 text-3xl font-black">
+                RIS
               </div>
 
-              <div>
-                <span className="text-red-600 font-bold">
-                  Manufacturing:
-                </span>{" "}
-                CNC Machined
+              <div className="mt-3 text-zinc-300 font-semibold">
+                Standard 22 mm
               </div>
 
-              <div>
-                <span className="text-red-600 font-bold">
-                  Finish:
-                </span>{" "}
-                Hard Anodized
+              <div className="mt-4 text-zinc-500 text-sm">
+                Kompatybilność z popularnymi akcesoriami.
               </div>
 
-              <div>
-                <span className="text-red-600 font-bold">
-                  Origin:
-                </span>{" "}
+            </div>
+
+            <div className="border border-zinc-800 p-8">
+
+              <div className="text-red-600 text-3xl font-black">
+                CNC
+              </div>
+
+              <div className="mt-3 text-zinc-300 font-semibold">
+                Precision Machined
+              </div>
+
+              <div className="mt-4 text-zinc-500 text-sm">
+                Wysoka dokładność wykonania każdego elementu.
+              </div>
+
+            </div>
+
+            <div className="border border-zinc-800 p-8">
+
+              <div className="text-red-600 text-3xl font-black">
+                MODULAR
+              </div>
+
+              <div className="mt-3 text-zinc-300 font-semibold">
+                Accessory Ready
+              </div>
+
+              <div className="mt-4 text-zinc-500 text-sm">
+                Gotowa do montażu optyki i wyposażenia.
+              </div>
+
+            </div>
+
+            <div className="border border-zinc-800 p-8">
+
+              <div className="text-red-600 text-3xl font-black">
+                PL
+              </div>
+
+              <div className="mt-3 text-zinc-300 font-semibold">
                 Made In Poland
+              </div>
+
+              <div className="mt-4 text-zinc-500 text-sm">
+                Projektowane i produkowane w Polsce.
               </div>
 
             </div>
@@ -94,24 +272,86 @@ export default function RA05Page() {
 
         </div>
 
-        <a
-          href="/"
-          className="
-            inline-block
-            mt-12
-            px-8
-            py-4
-            bg-red-700
-            hover:bg-red-600
-            transition
-            rounded-xl
-            font-semibold
-          "
-        >
-          ← Back to Home
-        </a>
+      </section>
 
-      </div>
+      {/* SPECYFIKACJA */}
+
+      <section className="border-b border-zinc-900">
+
+        <div className="max-w-4xl mx-auto px-6 py-24">
+
+          <p className="uppercase tracking-[4px] text-red-600 text-sm">
+            Specyfikacja
+          </p>
+
+          <h2 className="mt-4 text-5xl font-black uppercase">
+            Dane techniczne
+          </h2>
+
+          <div className="mt-12 space-y-6">
+
+            <div className="flex justify-between border-b border-zinc-900 pb-4">
+              <span className="text-zinc-500">Typ</span>
+              <span>RIS / Picatinny Rail</span>
+            </div>
+
+            <div className="flex justify-between border-b border-zinc-900 pb-4">
+              <span className="text-zinc-500">Standard</span>
+              <span>22 mm</span>
+            </div>
+
+            <div className="flex justify-between border-b border-zinc-900 pb-4">
+              <span className="text-zinc-500">Produkcja</span>
+              <span>CNC Machined</span>
+            </div>
+
+            <div className="flex justify-between border-b border-zinc-900 pb-4">
+              <span className="text-zinc-500">Pochodzenie</span>
+              <span>Polska</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* CTA */}
+
+      <section>
+
+        <div className="max-w-7xl mx-auto px-6 py-24 text-center">
+
+          <h2 className="text-4xl lg:text-6xl font-black uppercase">
+            Poznaj kolejne produkty
+          </h2>
+
+          <p className="mt-6 text-zinc-500">
+            Odkryj pełną serię komponentów Raven Arms.
+          </p>
+
+          <a
+            href="/#products"
+            className="
+              inline-block
+              mt-10
+              bg-red-700
+              hover:bg-red-600
+              transition
+              px-10
+              py-5
+              uppercase
+              font-black
+              tracking-wider
+            "
+          >
+            Wróć do produktów →
+          </a>
+
+        </div>
+
+      </section>
+
     </main>
   );
 }
