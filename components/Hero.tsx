@@ -5,18 +5,18 @@ export default function Hero() {
     className="relative min-h-screen overflow-hidden">
 
       {/* Background */}
-      <img
-        src="/gallery/ar15.jpg"
-        alt=""
-        className="
-          absolute
-          inset-0
-          w-full
-          h-full
-          object-cover
-          opacity-20
-        "
-      />
+<img
+  src="/hero/shooter-hero.png"
+  alt="Raven Arms"
+  className="
+    absolute
+    inset-0
+    w-full
+    h-full
+    object-cover
+    opacity-40
+  "
+/>
 
       <div className="absolute inset-0 bg-black/60" />
 
