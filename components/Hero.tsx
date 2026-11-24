@@ -20,7 +20,7 @@ export default function Hero() {
 
       {/* Przyciemnienie */}
 
-      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-black/50" />
 
       {/* Gradient */}
 
