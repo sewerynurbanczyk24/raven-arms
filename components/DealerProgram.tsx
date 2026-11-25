@@ -85,7 +85,7 @@ export default function DealerProgram() {
             </div>
 
             <a
-              href="#contact"
+              href="/dealer"
               className="
                 inline-flex
                 items-center
