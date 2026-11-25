@@ -6,7 +6,7 @@ export default function DealerPage() {
 
       <section className="border-b border-zinc-900">
 
-        <div className="max-w-7xl mx-auto px-6 py-32">
+        <div className="max-w-7xl mx-auto px-6 py-24">
 
           <p className="uppercase tracking-[4px] text-red-600 text-sm">
             Raven Arms Dealer Program
@@ -21,9 +21,10 @@ export default function DealerPage() {
           </h1>
 
           <p className="mt-10 text-xl text-zinc-400 max-w-3xl leading-relaxed">
-            Poszukujemy partnerów handlowych, sklepów strzeleckich,
-            dystrybutorów oraz firm zainteresowanych rozwojem
-            marki Raven Arms na rynku krajowym i międzynarodowym.
+            Poszukujemy sklepów strzeleckich, dystrybutorów,
+            partnerów handlowych oraz firm zainteresowanych
+            rozwojem marki Raven Arms na rynku krajowym
+            i międzynarodowym.
           </p>
 
         </div>
@@ -36,7 +37,11 @@ export default function DealerPage() {
 
         <div className="max-w-7xl mx-auto px-6 py-24">
 
-          <h2 className="text-5xl font-black uppercase">
+          <p className="uppercase tracking-[4px] text-red-600 text-sm">
+            Korzyści współpracy
+          </p>
+
+          <h2 className="mt-4 text-5xl font-black uppercase">
             Dlaczego Raven Arms
           </h2>
 
@@ -48,7 +53,7 @@ export default function DealerPage() {
               </div>
 
               <p className="mt-4 text-zinc-500">
-                Komponenty CNC klasy premium dla wymagających użytkowników.
+                Produkty zaprojektowane dla najbardziej wymagających użytkowników.
               </p>
             </div>
 
@@ -58,7 +63,7 @@ export default function DealerPage() {
               </div>
 
               <p className="mt-4 text-zinc-500">
-                Możliwość realizacji projektów dla partnerów biznesowych.
+                Możliwość współpracy przy projektach oraz produkcji OEM.
               </p>
             </div>
 
@@ -68,7 +73,7 @@ export default function DealerPage() {
               </div>
 
               <p className="mt-4 text-zinc-500">
-                Własne projekty oraz precyzyjna produkcja komponentów.
+                Precyzyjna produkcja komponentów w technologii CNC.
               </p>
             </div>
 
@@ -78,7 +83,71 @@ export default function DealerPage() {
               </div>
 
               <p className="mt-4 text-zinc-500">
-                Rozwój sieci sprzedaży na rynkach międzynarodowych.
+                Rozwijamy sieć partnerów na rynkach międzynarodowych.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* JAK TO DZIAŁA */}
+
+      <section className="border-b border-zinc-900">
+
+        <div className="max-w-7xl mx-auto px-6 py-24">
+
+          <p className="uppercase tracking-[4px] text-red-600 text-sm">
+            Proces współpracy
+          </p>
+
+          <h2 className="mt-4 text-5xl font-black uppercase">
+            Trzy proste kroki
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
+
+            <div>
+              <div className="text-red-600 text-4xl font-black">
+                01
+              </div>
+
+              <h3 className="mt-4 text-xl font-black uppercase">
+                Formularz
+              </h3>
+
+              <p className="mt-4 text-zinc-500">
+                Wypełnij formularz dealerski oraz przedstaw swoją działalność.
+              </p>
+            </div>
+
+            <div>
+              <div className="text-red-600 text-4xl font-black">
+                02
+              </div>
+
+              <h3 className="mt-4 text-xl font-black uppercase">
+                Kontakt
+              </h3>
+
+              <p className="mt-4 text-zinc-500">
+                Analizujemy zgłoszenie i kontaktujemy się z partnerem.
+              </p>
+            </div>
+
+            <div>
+              <div className="text-red-600 text-4xl font-black">
+                03
+              </div>
+
+              <h3 className="mt-4 text-xl font-black uppercase">
+                Współpraca
+              </h3>
+
+              <p className="mt-4 text-zinc-500">
+                Ustalamy warunki współpracy i rozwijamy sprzedaż produktów.
               </p>
             </div>
 
@@ -103,8 +172,8 @@ export default function DealerPage() {
           </h2>
 
           <p className="mt-6 text-zinc-500">
-            Wypełnij formularz, a skontaktujemy się z Tobą
-            w sprawie współpracy handlowej.
+            Pozostaw dane kontaktowe, a wrócimy do Ciebie
+            z propozycją współpracy.
           </p>
 
           <form className="grid gap-6 mt-12">
@@ -112,97 +181,41 @@ export default function DealerPage() {
             <input
               type="text"
               placeholder="Imię i nazwisko"
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 outline-none focus:border-red-600"
             />
 
             <input
               type="text"
               placeholder="Nazwa firmy"
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 outline-none focus:border-red-600"
             />
 
             <input
               type="text"
               placeholder="Kraj"
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 outline-none focus:border-red-600"
             />
 
             <input
               type="email"
               placeholder="Adres e-mail"
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 outline-none focus:border-red-600"
             />
 
             <input
               type="tel"
               placeholder="Telefon"
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 outline-none focus:border-red-600"
             />
 
             <input
               type="text"
               placeholder="Strona internetowa"
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 outline-none focus:border-red-600"
             />
 
             <select
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 outline-none focus:border-red-600"
             >
               <option>Typ działalności</option>
               <option>Sklep strzelecki</option>
@@ -215,16 +228,7 @@ export default function DealerPage() {
             <textarea
               rows={6}
               placeholder="Opisz swoją działalność oraz zakres możliwej współpracy"
-              className="
-                bg-black
-                border
-                border-zinc-800
-                px-5
-                py-4
-                resize-none
-                focus:border-red-600
-                outline-none
-              "
+              className="bg-black border border-zinc-800 px-5 py-4 resize-none outline-none focus:border-red-600"
             />
 
             <button
@@ -233,7 +237,6 @@ export default function DealerPage() {
                 bg-red-700
                 hover:bg-red-600
                 transition
-                px-10
                 py-5
                 uppercase
                 font-black
