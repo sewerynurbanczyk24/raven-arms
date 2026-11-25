@@ -19,17 +19,17 @@ export default function RA03Page() {
           </h1>
 
           <h2 className="mt-4 text-3xl lg:text-4xl text-zinc-300 uppercase">
-            Extended Magazine Release
+            Competition Magwell
           </h2>
 
           <p className="mt-8 text-zinc-500 uppercase tracking-[4px]">
-            Faster. Easier. Better.
+            Faster. Smoother. Better.
           </p>
 
           <div className="mt-16">
             <img
-              src="/products/ra03-mag-release.png"
-              alt="RA-03 Extended Magazine Release"
+              src="/products/ra03-magwell.png"
+              alt="RA-03 Competition Magwell"
               className="
                 w-full
                 max-w-5xl
@@ -61,11 +61,8 @@ export default function RA03Page() {
               />
 
               <div className="w-10 h-10 rounded-full bg-red-700" />
-
               <div className="w-10 h-10 rounded-full bg-blue-600" />
-
               <div className="w-10 h-10 rounded-full bg-green-600" />
-
               <div className="w-10 h-10 rounded-full bg-yellow-500" />
 
             </div>
@@ -87,11 +84,13 @@ export default function RA03Page() {
             <div>
 
               <p className="uppercase tracking-[4px] text-red-600 text-sm">
-                Zaprojektowany dla szybkości
+                Stworzony dla szybkości
               </p>
 
               <h2 className="mt-4 text-5xl font-black uppercase">
-                Błyskawiczna wymiana magazynka
+                Szybsze ładowanie
+                <br />
+                większa pewność
               </h2>
 
             </div>
@@ -99,16 +98,15 @@ export default function RA03Page() {
             <div>
 
               <p className="text-zinc-400 leading-relaxed text-lg">
-                RA‑03 Extended Magazine Release został opracowany
-                z myślą o strzelcach, którzy oczekują szybkiej,
-                intuicyjnej oraz pewnej obsługi magazynka podczas
-                treningów i zawodów.
+                RA‑03 Competition Magwell został opracowany
+                dla strzelców sportowych oczekujących szybszej,
+                płynniejszej i bardziej intuicyjnej wymiany magazynka.
               </p>
 
               <p className="mt-8 text-zinc-500 leading-relaxed">
-                Powiększona powierzchnia przycisku poprawia ergonomię,
-                przyspiesza zmianę magazynka i pozwala zachować pełną
-                kontrolę nad bronią nawet podczas dynamicznych konkurencji.
+                Powiększony lejek prowadzący zwiększa tolerancję
+                podczas wkładania magazynka i pomaga zachować
+                maksymalną wydajność nawet pod presją czasu.
               </p>
 
             </div>
@@ -145,7 +143,6 @@ export default function RA03Page() {
               <h3 className="font-black text-xl">
                 Beretta 92X
               </h3>
-
               <p className="mt-3 text-zinc-500 text-sm">
                 Pistolety sportowe
               </p>
@@ -155,7 +152,6 @@ export default function RA03Page() {
               <h3 className="font-black text-xl">
                 CZ Shadow 2
               </h3>
-
               <p className="mt-3 text-zinc-500 text-sm">
                 IPSC & Dynamic Shooting
               </p>
@@ -165,7 +161,6 @@ export default function RA03Page() {
               <h3 className="font-black text-xl">
                 Walther PDP
               </h3>
-
               <p className="mt-3 text-zinc-500 text-sm">
                 Performance Pistols
               </p>
@@ -175,7 +170,6 @@ export default function RA03Page() {
               <h3 className="font-black text-xl">
                 Huglu Mohac
               </h3>
-
               <p className="mt-3 text-zinc-500 text-sm">
                 Sport & Tactical Shotguns
               </p>
@@ -185,7 +179,6 @@ export default function RA03Page() {
               <h3 className="font-black text-xl">
                 FB GROT
               </h3>
-
               <p className="mt-3 text-zinc-500 text-sm">
                 Modern Rifle Platform
               </p>
@@ -216,7 +209,7 @@ export default function RA03Page() {
               </div>
 
               <div className="mt-4 text-zinc-500 text-sm">
-                Lepsza ergonomia podczas dynamicznego strzelania.
+                Lepsze prowadzenie magazynka podczas przeładowania.
               </div>
 
             </div>
@@ -232,7 +225,7 @@ export default function RA03Page() {
               </div>
 
               <div className="mt-4 text-zinc-500 text-sm">
-                Dokładna obróbka każdego detalu.
+                Dokładna obróbka i perfekcyjne dopasowanie.
               </div>
 
             </div>
@@ -248,7 +241,7 @@ export default function RA03Page() {
               </div>
 
               <div className="mt-4 text-zinc-500 text-sm">
-                Opracowany dla strzelectwa sportowego.
+                Zaprojektowany z myślą o strzelectwie sportowym.
               </div>
 
             </div>
@@ -292,18 +285,18 @@ export default function RA03Page() {
           <div className="mt-12 space-y-6">
 
             <div className="flex justify-between border-b border-zinc-900 pb-4">
+              <span className="text-zinc-500">Typ</span>
+              <span>Competition Magwell</span>
+            </div>
+
+            <div className="flex justify-between border-b border-zinc-900 pb-4">
               <span className="text-zinc-500">Przeznaczenie</span>
-              <span>Pistolety i karabinki sportowe</span>
+              <span>Pistolety sportowe</span>
             </div>
 
             <div className="flex justify-between border-b border-zinc-900 pb-4">
               <span className="text-zinc-500">Produkcja</span>
               <span>CNC Machined</span>
-            </div>
-
-            <div className="flex justify-between border-b border-zinc-900 pb-4">
-              <span className="text-zinc-500">Wykończenie</span>
-              <span>Hard Anodized</span>
             </div>
 
             <div className="flex justify-between border-b border-zinc-900 pb-4">
